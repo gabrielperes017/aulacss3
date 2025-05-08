@@ -1,0 +1,34 @@
+/* Estilo do corpo da página */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+
+body {
+    background-color: rgba(42, 119, 138, 0.568); /* Cor de fundo com transparência (azul esverdeado) */
+    margin-left: 20%; /* Cria uma margem à esquerda de 20% para deslocar o conteúdo à direita */
+}
+
+/* Estilo para o bloco principal */
+.bloco {
+    font-size: 15px; /* Tamanho da fonte do texto dentro do bloco */
+    font-family: "Oswald", sans-serif; /* Tipo de fonte usada */
+
+    margin-top: 30px; /* Espaço acima do bloco */
+    height: 280px; /* Altura fixa do bloco */
+    width: 250px; /* Largura fixa do bloco */
+    border-radius: 20px; /* Bordas arredondadas */
+    border: solid 1px; /* Borda sólida de 1 pixel */
+    background-color: aquamarine; /* Cor de fundo do bloco */
+}
+
+/* Estilo para os parágrafos */
+p {
+    padding-left: 15px;  /* Espaço interno à esquerda do parágrafo */
+    padding-right: 15px; /* Espaço interno à direita do parágrafo */
+}
+
+/* Estilo para os títulos h2 */
+h2 {
+    margin: 5%; /* Margem ao redor do título */
+}
